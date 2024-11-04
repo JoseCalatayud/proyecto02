@@ -16,4 +16,10 @@ public class AppTest {
     public void shouldAnswerWithTrue() {
         assertTrue(true);
     }
+    @Test
+    public void testSumar(){
+        Pepe cut = new Pepe();
+        assertTrue(cut.sumar(5, 5)==10);
+    }
+    
 }
